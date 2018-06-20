@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pyyaml = "*"
+numpy = "*"
+packaging = "*"
+six = "*"
+tornado = "*"
+"jinja2" = "*"
+python-dateutil = "*"
+bokeh = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
